@@ -2,6 +2,7 @@
 Proyek 'data analytics' di PT Zenius Education menggunakan google colab
 
 Judul: "Analisis Klien Gagal Bayar Dengan Membandingkan Beberapa Algoritma yang Berbeda"
+
 Link Google Colab:
 1. Data Understanding
    - https://colab.research.google.com/drive/1ZPGt42PEyEy5Gzv5FoS8iD-0RTrbEk6T?usp=sharing
@@ -10,20 +11,22 @@ Link Google Colab:
    - https://colab.research.google.com/drive/1Ld5TXTqL0XecjrUWCWuzLWYcykOU0h0y?usp=sharing
 5. Modelling & Evaluation
    - https://colab.research.google.com/drive/1XkkAdNSDFI91uk5mDG6J48Hot0rs3yFl?usp=sharing
+
 Tujuan analisis:
 - Mengidentifikasi potensi gagalnya membayar pinjaman berdasarkan data historis, menggunakan indikator keuangan dan non-keuangan
 - Membuat model yang dapat memprediksi seberapa tinggi kemampuan konsumen dalam membayar angsuran demi memastikan penyaluran pinjaman yang lebih maksimal kepada nasabah yang lebih berkemungkinan dapat membayar angsuran dengan lancar. Model terfokuskan pada konsumen yang diprediksi gagal bayar nyatanya konsumen mampu membayar.
+
 Terdapat 4 Notebook dan penjelasan tiap Notebook:
 1. Exploratory Data Analysis (EDA)
    - Membaca dan memvisualisasikan tiap variabel
-3. Exploratory Data Analysis (EDA) 2
+2. Exploratory Data Analysis (EDA) 2
    - Membaca dan memvisualisasikan tiap variabel
-5. Data Preprocessing
+3. Data Preprocessing
    - Mengatasi masalah missing value dengan menghapus kolom yang memiliki persentase missing value diatas 60% dan beberapa dilakukan penanganan dengan mengganti NaN menggunakan nilai median, mean, dan modus. Untuk variable kategorik digunakan penanganan dengan nilai modus dan untuk variable numeric digunakan penanganan dengan nilai median dan mean.
    - Melakukan categorical data enconding.
    - Mengatasi masalah outlier dengan mengganti menggunakan nilai median.
    - Menghapus beberapa variabel yang tidak dibutuhkan.
-6. Modelling & Evaluation
+4. Modelling & Evaluation
    - Logistic Regression
    - K-Nearest Neighbors
    - Decision Tree (menjadi model terbaik yang digunakan untuk pengambilan kesimpulan)
